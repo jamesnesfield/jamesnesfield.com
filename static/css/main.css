@@ -1,0 +1,139 @@
+/*
+ * Globals
+ */
+
+/* Links */
+.fa,
+.fa:focus,
+.fa:hover {
+  color: #444;
+}
+
+img {
+  vertical-align: baseline;
+  margin-right: 10px;
+  height: 32px;
+  width: 32px;
+}
+
+.text-muted{
+  color: #dcdcdc!important;
+  font-weight: 500;
+}
+
+a,
+a:focus,
+a:hover {
+  color: #999;
+}
+
+h1 {
+  /*font-weight: 900;*/
+}
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+  height: 100%;
+  background-color: #FFFFFF;
+}
+body {
+  color: #333333;
+  font-family: 'Avenir', 'Lato';
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 0em;
+}
+
+.lead {
+  font-weight: 900;
+  /*color: #666;*/
+}
+
+.chirp {
+  color: #FFD458;
+}
+
+.chirp:hover {
+  color: #FFD458;
+}
+
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+.site-wrapper {
+  display: table;
+  width: 100%;
+  height: 100%; /* For at least Firefox */
+  min-height: 100%;
+}
+.site-wrapper-inner {
+  display: table-cell;
+  vertical-align: top;
+}
+
+.card {
+  border:none;
+  background-color: #FFF;
+}
+
+.card-header {
+    background-color: #FFF;
+    border-bottom: none;
+}
+
+.card-footer {
+    background-color: #FFF;
+    border-top: none;
+}
+
+
+.icons {
+  font-size: 1.2em;
+  text-align: center;
+}
+
+/*
+ * Footer
+ */
+
+.mastfoot {
+  color: #999999;
+}
+
+.fa {
+  margin-right: 10px;
+  font-size: 2em;
+}
+
+
+/*
+ * Affix and center
+ */
+
+  .mastfoot {
+    position: fixed;
+    bottom: 0;
+  }
+  /* Start the vertical centering */
+  .site-wrapper-inner {
+    vertical-align: middle;
+  }
+  /* Handle the widths */
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 100%; /* Must be percentage or pixels for horizontal alignment */
+  }
+
+
+@media (min-width: 62em) {
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 42rem;
+  }
+}

@@ -1,0 +1,28 @@
+baseURL = "http://jamesnesfield.com/"
+languageCode = "en-gb"
+title = "James Nesfield"
+builddrafts         = false
+canonifyurls        = true
+layoutdir           = "layouts"
+publishdir          = "public"
+author              = "James Nesfield"
+pygmentsuseclasses  = true
+pluralizelisttitles = false
+googleAnalytics     = "UA-34627537-1"
+
+[params]
+text              	   = "CTO @ chirp"                            # appears in the site header when set to a non-empty string
+i18n_flags             = false                         # whether to display small country flags for available translations
+author                 = "James Nesfield"
+description            = "James Nesfield's Homepage"
+email                  = "james@nesfield.org"
+faviconfile            = "img/favicon.ico"
+github                 = "//github.com/jamesnesfield"
+instagram              = "//instagram.com/jamesnesfield"
+lang                   = "en"
+linkedin               = "//linkedin.com/in/jamesnesfield"
+twitter                = "//twitter.com/jamesnesfield"
+flickr                = "//www.flickr.com/photos/jamesnesfield"
+
+#avatar                 = "img/profile.png" # path to image in static dir e.g img/avatar.png (do not use in the same time as gravatar)
+#gravatar             = "b23efa00c03c0e9c4225fdd6475e9b54"                # gravatar hash. see https://en.gravatar.com/site/implement/hash/. do not use in the same time as avatar
