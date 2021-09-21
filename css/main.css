@@ -9,11 +9,17 @@
   color: #444;
 }
 
-img {
+.icon {
   vertical-align: baseline;
-  margin-right: 10px;
-  height: 32px;
-  width: 32px;
+  margin-right: 20px;
+  height: 40px;
+  width: 40px;
+}
+
+.photo {
+  width: 100%;
+  height: auto;
+  text-align: center;
 }
 
 .text-muted{
@@ -46,7 +52,7 @@ body {
 }
 
 h1 {
-  font-size: 2em;
+  font-size: 2.2em;
   margin-bottom: 0em;
 }
 
